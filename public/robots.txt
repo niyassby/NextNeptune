@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.neptunemark.com
+
+# Sitemaps
+Sitemap: https://www.neptunemark.com/sitemap.xml

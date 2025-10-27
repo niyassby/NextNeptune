@@ -63,8 +63,8 @@ function Testimonial() {
               <SwiperSlide className="pb-10 " key={index}>
               <div >
                 <div className="flex flex-col items-center justify-center mil-drag">
-                  <div className="relative qsection">
-                  <img src={item.image} alt={item.name} className="size-24  rounded-full outline-4 object-top outline-neutral-50 object-cover" />
+                  <div className="relative qsection mt-3">
+                  <img src={item.image} alt={item.name} className="size-24  rounded-full outline-4 object-top  outline-neutral-50 object-cover" />
                   <div className="absolute -right-3 text-gray-800 top-0">
                     <QuoteDownIcon size={20}/>
                   </div>

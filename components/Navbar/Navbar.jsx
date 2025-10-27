@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <>
       <div
-        className={`w-full bg-b lack borde r-b border-neutral-600/30 fixed top-0 z-50 transition-all duration-1000   ${
+        className={`w-full bg-b lack borde r-b border-neutral-600/30 fixed top-0 z-[500] transition-all duration-1000   ${
           isScroll ? "md:py-7 py-5 max-md:bg-black" : "md:py-9 py-6"
         }`}
       >

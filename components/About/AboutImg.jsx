@@ -40,7 +40,7 @@ function AboutImg() {
             })}
         </div>
         <div>
-            <h1 className='text-6xl text-neutral-200 mt-20 font-medium'>Transforming Ambition into Digital Reality with Integrated Expertise</h1>
+            <h1 className='text-4xl md:text-6xl text-neutral-200 mt-20 font-medium'>Transforming Ambition into Digital Reality with Integrated Expertise</h1>
             <p className='text-neutral-400 mt-4 text-base font-light'>We are the convergence point where robust technology meets fearless creative vision. Neptune Mark Digital Creators LLP builds more than campaigns—we engineer digital legacies. Our integrated approach ensures that every pixel, line of code, and performance metric works in perfect harmony to deliver measurable ROI and transform your ambitious project into a lasting success story.</p>
         </div>
     </BaseComp>

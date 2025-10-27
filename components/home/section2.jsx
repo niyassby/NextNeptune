@@ -30,7 +30,7 @@ function Section2() {
             
             <div   className="col-span-1 row-span-2 min-h-60 cursor-pointer group relative flex flex-col justify-end  w-full h-full py-6 px-6 bg-[#111111] transition-all rounded-3xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] backdrop-blur-[4.4px] border-1 border-[rgba(241,242,246,0.15)] overflow-hidden duration-500 hover:shadow-xl shadow-neutral-950">
               <div className="absolute  -left-20 rotate-45 -top-28 w-full h-full">
-                <img className="scale-150 w-full h-full object-contain" src="./assets/backgroun-dot.png" alt="" />
+                <img className="scale-150 w-full h-full object-contain " src="./assets/backgroun-dot.png" alt="" />
               </div>
               
               <h1 className="font-bold relative text-lg leading-5 text-white cardhover">Future-Proof Technology</h1>

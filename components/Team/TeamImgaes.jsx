@@ -3,6 +3,7 @@ import React from "react";
 import BaseComp from "../Util/BaseComp";
 import { StaticContent } from "@/lib/Content";
 import useAnimationEffects from "../Util/upAnimation";
+import Image from "next/image";
 
 const team = new StaticContent().team;
 
@@ -25,10 +26,13 @@ function TeamImgaes() {
                 key={index}
                 className="teamImg w-full h-full max-md:h-[350px] flex flex-col items-center justify-center transition-all perFectIcons overflow-hidden group  relative  "
               >
-                <img
+                <Image
                   className="w-full h-full object-cover grayscale-100 group-hover:scale-100 scale-105 transition-all duration-500"
                   src={item.image}
+                  width={500}
+                  height={500}
                   alt=""
+                  priority={false} 
                 />
 
                 <div className="inset-0  flex flex-col justify-end p-6 bg-black/60  absolute opacity-0 group-hover:opacity-100 transition-all duration-500">
