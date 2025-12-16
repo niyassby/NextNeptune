@@ -80,8 +80,6 @@ const LightShape = ({ isHovered = false }) => {
             .neon-glow {
               filter:
                 drop-shadow(0 0 5px ${NEON_COLOR_PRIMARY})
-                drop-shadow(0 0 15px ${NEON_COLOR_PRIMARY})
-                drop-shadow(0 0 25px ${NEON_COLOR_PRIMARY}aa)
                 drop-shadow(0 0 45px ${NEON_COLOR_PRIMARY}aa)
                 drop-shadow(0 0 65px ${NEON_COLOR_PRIMARY}77);
             }
