@@ -8,6 +8,7 @@ import { ArrowRight, Loader2 } from "lucide-react";
 import { AnimatedCheck } from "../ui/AnimatedCheck";
 import { StaticContent } from "@/lib/Content";
 import Link from "next/link";
+import Image from "next/image";
 import ActiveLink from "../ui/ActiveLink";
 
 
@@ -45,7 +46,7 @@ const Footer = () => {
 
       timer2 = setTimeout(() => {
         setLoading(null);
-      }, 4000);  
+      }, 4000);
     }
 
     return () => {
@@ -67,7 +68,7 @@ const Footer = () => {
       <div className="mt-20">
         <div className="grid  md:grid-cols-4  gap-y-6 md:gap-y-16 gap-x-12">
           <div className="md:col-span-2">
-            <img className="w-auto h-10 footer" src="/assets/Logo.svg" alt="" />
+            <Image src="/assets/Logo.svg" width={128} height={40} className="w-auto h-10 footer" alt="Logo" />
             <p className="footer text-sm tracking-widest text-neutral-400 mt-10">
               Subscribe to newsletter
             </p>
@@ -99,7 +100,7 @@ const Footer = () => {
                       size={20}
                       stroke="#fff"
                       duration={0.9}
-                      // onComplete={() => setLoading(null)}
+                    // onComplete={() => setLoading(null)}
                     />
                   ) : (
                     <ArrowRight strokeWidth={1.5} size={20} />
@@ -159,7 +160,7 @@ const Footer = () => {
             <h1 className="text-xl font-bold text-neutral-300">India</h1>
             <div className="flex flex-col gap-1 mt-6">
               <p className="text-neutral-500 font-semibold">
-              {adress?.address?.India}
+                {adress?.address?.India}
               </p>
             </div>
           </div>
@@ -168,7 +169,7 @@ const Footer = () => {
             <h1 className="text-xl font-bold text-neutral-300">Qatar</h1>
             <div className="flex flex-col gap-1 mt-6">
               <p className="text-neutral-500 font-semibold">
-              {adress?.address?.Qatar}
+                {adress?.address?.Qatar}
               </p>
             </div>
           </div>

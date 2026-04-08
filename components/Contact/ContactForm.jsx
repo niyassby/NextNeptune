@@ -99,11 +99,11 @@ function ContactForm() {
             <div className="relative contactForm">
               <textarea
                 type="text"
-                id="massage"
+                id="message"
                 rows={5}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                placeholder="TELL UA ABOUT OUR PROJECT"
+                placeholder="TELL US ABOUT YOUR PROJECT"
                 className="w-full py-3 px-3 tracking-wider placeholder:text-neutral-400 focus:border-neutral-900 focus:placeholder:text-neutral-300 focus:outline-none border-b text-black placeholder:text-sm  placeholder:font-medium mt-1 focus:ring-0 "
               />
             </div>
@@ -111,17 +111,17 @@ function ContactForm() {
 
           <div className="mt-2">
             <p
-              className={`text-sm text-ne utral-600 contactForm ${
+              className={`text-sm contactForm ${
                 status === "Your message has been sent!"
                   ? "text-main-color-600"
                   : "text-red-600"
-              }`}
+                }`}
             >
               {status}
             </p>
 
             <div className="mt-5 contactForm">
-              <NewButton onClick={handleSubmit}>SEND MASSAGE</NewButton>
+              <NewButton onClick={handleSubmit}>SEND MESSAGE</NewButton>
             </div>
           </div>
         </div>

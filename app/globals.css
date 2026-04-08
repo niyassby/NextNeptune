@@ -174,28 +174,28 @@
   --animate-position: position 10s ease-in-out infinite;
   @keyframes position {
     0%{
-      transform: translate(0);
+      transform: translate3d(0, 0, 0);
     }
     50%{
-      transform: translate(50px, 50px);
+      transform: translate3d(50px, 50px, 0);
     }
     100% {
-      transform: translate(0);
+      transform: translate3d(0, 0, 0);
     }
   }
 }
 @theme {
   --ease-inOutQuint: cubic-bezier(1, 0, 0, 1); 
-  --animate-move: position 20s ease-in-out infinite;
-  @keyframes position {
+  --animate-move: move 20s ease-in-out infinite;
+  @keyframes move {
     0%{
-      transform: translate(0);
+      transform: translate3d(0, 0, 0);
     }
     50%{
-      transform: translateY(-500px);
+      transform: translate3d(0, -500px, 0);
     }
     100% {
-      transform: translate(0);
+      transform: translate3d(0, 0, 0);
     }
   }
 }

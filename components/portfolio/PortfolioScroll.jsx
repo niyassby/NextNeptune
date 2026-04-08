@@ -3,9 +3,6 @@ import React from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import img1 from "../../assets/logoPre.jpg";
-// import img2 from "../../assets/portfolio/web.jpg";
-// import img3 from "../../assets/portfolio/package.jpg";
 import BaseComp from "../Util/BaseComp";
 import { HiArrowUpRight } from "react-icons/hi2";
 
